@@ -2,9 +2,22 @@
 # see description here: https://tuananh.org/2014/08/13/localization-with-jekyll/
 
 locales:
+
+  # Finnish translation
+  # -------------------
+  fi: &DEFAULT_FI
+    overview: "Yhteenveto"
+    toc: "Sivuston sisältö"
+    written_by: "Kirjoittaja"
+    updated: "Päivitetty"
+    share: "Jaa"
+  fi_FI:
+    <<: *DEFAULT_FI     # use Finnish translation for fi_FI
+
   # English translation
   # -------------------
   en: &DEFAULT_EN
+    <<: *DEFAULT_FI     # load Finnish values as default
     overview: "Overview"
     toc: "Table of Contents"
     written_by: "Written by"
@@ -18,7 +31,7 @@ locales:
   # German translation
   # -------------------
   de: &DEFAULT_DE
-    <<: *DEFAULT_EN     # load English values as default
+    <<: *DEFAULT_FI     # load Finnish values as default
     overview: "&Uuml;bersicht"
     toc: "Inhalt"
     written_by: "Verfasst von"
@@ -30,7 +43,7 @@ locales:
   # French translation (TODO)
   # -------------------
   fr: &DEFAULT_FR
-    <<: *DEFAULT_EN     # load English values as default
+    <<: *DEFAULT_FI     # load Finnish values as default
     overview: "Aperçu"
     toc: "Table des matières"
     written_by: "Écrit par"
@@ -38,12 +51,3 @@ locales:
     share: "Partager sur"
   fr_FR:
     <<: *DEFAULT_FR      # use French translation for fr_FR
-
-  fi: &DEFAULT_FI
-      overview: "Yhteenveto"
-      toc: "Sivuston sisältö"
-      written_by: "Kirjoittaja"
-      updated: "Päivitetty"
-      share: "Jaa"
-    fi_FI:
-      <<: *DEFAULT_FI     # use Finnish translation for fi_FI

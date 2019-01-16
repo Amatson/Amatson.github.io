@@ -1,6 +1,16 @@
 # Site navigation links
 
-# - title: overview
-#   url: /info
-#   excerpt: "Infoa ja ohjeita vieraille"
-#   image:
+- title: Info
+  url: /info
+  excerpt: "Infoa ja ohjeita vieraille"
+  image:
+
+- title: Blogi
+  url: /blog
+  excerpt: "Häiden projektiblogi"
+  image:
+
+- title: Ilmoittautuminen
+  url: /ilmo
+  excerpt: "Ilmoittautumistiedot"
+  image:
