@@ -1,18 +1,6 @@
 # Site navigation links
-docs_list_title: Sivuston sisältö
-docs:
 
-- title: Info
+- title: overview
   url: /info
   excerpt: "Infoa ja ohjeita vieraille"
-  image:
-
-- title: Blogi
-  url: /blog
-  excerpt: "Häiden projektiblogi"
-  image:
-
-- title: Ilmoittautuminen
-  url: /ilmo
-  excerpt: "Ilmoittautumistiedot"
   image:
