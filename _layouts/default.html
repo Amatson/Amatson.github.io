@@ -1,29 +1,47 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-      <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
-		</head>
-		<body>
-			<nav>
-        <ul>
-            <li><a href="/julmat">Etusivu</a></li>
-            <li><a href="/julmat/ilmo">Ilmo</a></li>
-            <li><a href="/julmat/info">Info</a></li>
-            <li><a href="/julmat/blog">Blogi</a></li>
-        </ul>
-			</nav>
-			<div class="container">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{% if page.title %}{{ page.title }} • {% endif %}{{ site.title }}</title>
+    {% if page.excerpt %}<meta name="description" content="{{ page.excerpt | strip_html }}">{% endif %}
+    {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
+    {% if page.author %}
+      {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %}
+    {% endif %}
+    {% include open-graph.html %}
 
-			{{ content }}
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
 
-			</div><!-- /.container -->
-			<footer>
-        <ul>
-            <li><a href="mailto:matsojala@gmail.com">email</a></li>
-            <li><a href="https://github.com/Amatson">github.com/Amatson</a></li>
-      </ul>
-			</footer>
-		</body>
-	</html>
+    <link href="{{ site.url }}/atom.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Atom Feed">
+    <link href="{{ site.url }}/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="cleartype" content="on">
+
+    <link rel="stylesheet" href="{{ site.url }}/css/main.css">
+    <!-- HTML5 Shiv and Media Query Support for IE -->
+    <!--[if lt IE 9]>
+      <script src="{{ site.url }}/js/vendor/html5shiv.min.js"></script>
+      <script src="{{ site.url }}/js/vendor/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+
+  <body id="js-body">
+    {% include browser-upgrade.html %}
+    {% include header.html %}
+    {% include navigation-sliding.html %}
+
+    <div id="page-wrapper">
+      {{ content }}
+      {% include footer.html %}
+    </div>
+
+    <script src="{{ site.url }}/js/vendor/jquery-1.9.1.min.js"></script>
+    <script src="{{ site.url }}/js/main.js"></script>
+
+  </body>
+
+</html>
