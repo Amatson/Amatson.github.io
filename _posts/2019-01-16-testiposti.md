@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: media
 title: "Sivuston julkaisu"
 date: 2019-01-16
 ---
