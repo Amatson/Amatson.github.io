@@ -3,6 +3,8 @@ layout: article
 title: "Sivuston julkaisu"
 date: 2019-01-22
 excerpt_separator: <!--more-->
+image:
+  teaser: teaser_heart_sign.jpg
 ---
 
 Matti ja Julia päättivät naimisiinmenosta jo melkoisen monta vuotta sitten. Päivämäärää pohdittiin niin ikään muutama vuosi, mutta elämä vei ja pariskunta viiletti mukana.

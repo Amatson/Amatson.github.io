@@ -3,7 +3,7 @@
 - title: Info
   url: /info
   excerpt: "Infoa ja ohjeita vieraille"
-  image: heart_sign.jpg
+  image: teaser_heart_sign.jpg
 
 - title: Blogi
   url: /blog
@@ -13,4 +13,4 @@
 - title: Ilmoittautuminen
   url: /ilmo
   excerpt: "Ilmoittautumistiedot"
-  image: message_table.jpg
+  image: teaser_message_table.jpg
