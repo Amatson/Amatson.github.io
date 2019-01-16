@@ -1,4 +1,10 @@
 # Footer navigation links
 
-- title:
-  url:
+- title: Info
+  url: /info
+
+- title: Blogi
+  url: /blog
+
+- title: Ilmoittautuminen
+  url: /ilmo
