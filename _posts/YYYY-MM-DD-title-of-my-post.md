@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Sivuston julkaisu"
+date: 2019-02-22
+---
+
+Matti ja Julia päättivät naimisiinmenosta jo melkoisen monta vuotta sitten. Päivämäärää pohdittiin niin ikään muutama vuosi, mutta elämä vei ja pariskunta viiletti mukana.
+
+Nyt vihdoin on kuitenkin tullut aika julkistaa häiden suunnittelu käynnistyneeksi ja häät lähestyväksi päivämäärällä 22.2.2020.
+Sopivasti siis 11. vuosipäivän kunniaksi aletaan kerryttää myös hääpäiviä. Se onkin hyvä, sillä etenkin miehenpuolikkaan huonon päivämäärämuistin tueksi on tehtävä kaikkensa, jotta hääpäivä ei pääse unohtumaan.
+
+Nämä sivut julkaistaan 10. vuosipäivän kunniaksi ja samalla päräytetään suunnittelu käyntiin toden teolla. Tervetuloa mukaan seuraamaan matkaa naimisiin!
+
+#vihdoin #olijoaikakin #julmat2020 #ojalagujalagustafsson
