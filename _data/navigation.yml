@@ -1,7 +1,6 @@
 # Site navigation links
-links:
 
-- title: overview
-  url: /info
-  excerpt: "Infoa ja ohjeita vieraille"
-  image:
+# - title: overview
+#   url: /info
+#   excerpt: "Infoa ja ohjeita vieraille"
+#   image:
