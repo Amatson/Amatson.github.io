@@ -3,14 +3,14 @@
 - title: Info
   url: /info
   excerpt: "Infoa ja ohjeita vieraille"
-  image:
+  image: heart_sign.jpg
 
 - title: Blogi
   url: /blog
   excerpt: "Häiden projektiblogi"
-  image:
+  image: kiss2.gif
 
 - title: Ilmoittautuminen
   url: /ilmo
   excerpt: "Ilmoittautumistiedot"
-  image:
+  image: message_table.jpg

@@ -2,8 +2,8 @@
 
 title: "JulMat2020"
 description: "JulMat menee naimisiin! #olijoaikakin"
-logo: # 120x120 px default image used for Twitter summary card
-teaser: # 400x250 px default teaser image used in image archive grid
+logo: logo.jpg # 120x120 px default image used for Twitter summary card
+teaser: teaser.jpg # 400x250 px default teaser image used in image archive grid
 locale: fi
 url:
 feed:
