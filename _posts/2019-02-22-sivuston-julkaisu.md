@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Sivuston julkaisu"
 date: 2019-02-22
 ---

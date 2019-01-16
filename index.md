@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /
-title: "Latest Posts"
+title: "JulMat menee naimisiin!"
 ---
 
 <div class="tiles">
