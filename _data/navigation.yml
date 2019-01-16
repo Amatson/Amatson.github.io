@@ -1,19 +1,16 @@
 # Site navigation links
 
--
-  title: Info
+title: Info
   url: /info
   excerpt: "Infoa ja ohjeita vieraille"
   image:
 
--
-  title: Blogi
+title: Blogi
   url: /blog
   excerpt: "Häiden projektiblogi"
   image:
 
--
-  title: Ilmoittautuminen
+title: Ilmoittautuminen
   url: /ilmo
   excerpt: "Ilmoittautumistiedot"
   image:
