@@ -10,7 +10,7 @@ title: ""
 }
 </style>
 
-<div class="page-feature-image bgimg">
+<div class="page-lead bgimg">
 	<div class="wrap page-lead-content ">
 		<h1>JulMat menee naimisiin</h1>
 		<h2>22.2.2020<br>
