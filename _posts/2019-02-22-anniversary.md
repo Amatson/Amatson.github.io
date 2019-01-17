@@ -24,6 +24,8 @@ Ehkä tää on myös se viimeinen varoitus siitä, mitä oot saamassa: rakkautta
 
 No nyt ruvetaan urakoimaan! Tästä alkaa se viimeinen rutistus. Kun se on tehty, on yhteiskuntakin sitä mieltä, että JulMat on käsite.
 
+_Rakkaudella: Matti <3_
+
 ```
 I will stay by your side now and forever.
 I will always only be in love with you.
@@ -44,5 +46,3 @@ I will always only be in love with you.
 Is it true when you say that you love me?
 And is it true that I'm the one?
 ```
-
-_Rakkaudella: Matti <3_
