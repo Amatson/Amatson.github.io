@@ -1,9 +1,7 @@
 ---
 layout: archive
 permalink: /
-title: "what?"
-image:
-	feature: banner_hearts.jpg
+title: "JulMat menee naimisiin!"
 ---
 
 <div class="wrap page-lead-content">
@@ -12,7 +10,7 @@ image:
 	No olihan se jo aikakin!</h2>
 </div>
 
-<!-- Matti Ojala ja Julia Gustafsson ovat aloittaneet häävalmistelunsa. Tervetuloa seuraamaan matkaamme alttarille! -->
+Matti Ojala ja Julia Gustafsson ovat aloittaneet häävalmistelunsa. Tervetuloa seuraamaan matkaamme alttarille!
 
 <div class="tiles">
 {% for post in site.posts %}
