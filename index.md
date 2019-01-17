@@ -3,10 +3,8 @@ layout: archive
 permalink: /
 title: "titletesti"
 ---
-
+background.image: url({{ site.baseurl }}/images/banner_hearts.jpg)
 <div class="wrap page-lead-content">
-background.image: url('/_images/banner_hearts.jpg')
-__
 	<h1>JulMat menee naimisiin</h1>
 	<h2>22.2.2020<br>
 	No olihan se jo aikakin!</h2>
