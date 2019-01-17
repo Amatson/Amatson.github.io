@@ -1,14 +1,17 @@
 ---
 layout: archive
 permalink: /
-title: "titletesti"
+title: ""
 ---
+
 background.image: url({{ site.baseurl }}/images/banner_hearts.jpg)
-<div class="wrap page-lead-content">
-	<h1>JulMat menee naimisiin</h1>
-	<h2>22.2.2020<br>
-	No olihan se jo aikakin!</h2>
-</div>
+class: wrap, page-lead-content
+
+# JulMat menee naimisiin
+## 22.2.2020
+## No olihan se jo aikakin!
+
+---
 
 Matti Ojala ja Julia Gustafsson ovat aloittaneet häävalmistelunsa. Tervetuloa seuraamaan matkaamme alttarille!
 
