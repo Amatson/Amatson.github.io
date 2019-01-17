@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /
-title: "titletesti"
+title: ""
 ---
 
 <style type="text/css">
@@ -10,10 +10,12 @@ title: "titletesti"
 }
 </style>
 
-<div class="wrap page-lead-content bgimg">
-	<h1>JulMat menee naimisiin</h1>
-	<h2>22.2.2020<br>
-	No olihan se jo aikakin!</h2>
+<div class="page-feature-image bgimg">
+	<div class="wrap page-lead-content ">
+		<h1>JulMat menee naimisiin</h1>
+		<h2>22.2.2020<br>
+		No olihan se jo aikakin!</h2>
+	</div>
 </div>
 
 Matti Ojala ja Julia Gustafsson ovat aloittaneet häävalmistelunsa. Tervetuloa seuraamaan matkaamme alttarille!
