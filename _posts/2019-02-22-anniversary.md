@@ -11,7 +11,7 @@ image:
 
 Tämä sivusto on vuosipäivälahja meille molemmille. Se olkoon omalaatuinen osoitukseni tähän projektiin sitoutumisesta.
 <!--more-->
-Ei kyse koskaan ollut sitoutumisesta meihin ja suhun, vaan omasta jaksamisesta tähän yhteiseen matkaan alttarille. Se matka aloitettiin jo 22.2.2008, siitä sovittiin "käsimerkein" 10.5.2015 ja nyt ollaan situduttu päivämäärään jolloin matka tulee päätökseensä. Se määränpää on ollut aina vain välietappi sillä reissulla jolle päätin jo aikaa sitten lähteä sun kanssas. Enkä vieläkään oo katunu sitä päätöstä.<3
+Ei kyse koskaan ollut sitoutumisesta meihin ja suhun, vaan omasta jaksamisesta tähän yhteiseen matkaan alttarille. Se matka aloitettiin jo 22.2.2008, siitä sovittiin "käsimerkein" 10.5.2015 ja nyt ollaan sitouduttu päivämäärään jolloin matka tulee päätökseensä. Se määränpää on ollut aina vain välietappi sillä reissulla jolle päätin jo aikaa sitten lähteä sun kanssas. Enkä vieläkään oo katunu sitä päätöstä.<3
 
 ## Ja siksi tämä sivusto
 
@@ -44,3 +44,5 @@ I will always only be in love with you.
 Is it true when you say that you love me?
 And is it true that I'm the one?
 ```
+
+_Rakkaudella: Matti <3_
