@@ -4,4 +4,10 @@ permalink: /blog
 title: "Matkakertomus aka Projektipäiväkirja aka 'Kuinka tahdottiin'"
 ---
 
-Tänne tulee kaikki blogipostaukset kivasti!
+Alta löydät kaikki blogipostaukset suunnittelun vaiheista.
+
+<div class="tiles">
+{% for post in site.posts %}
+	{% include post-grid.html %}
+{% endfor %}
+</div><!-- /.tiles -->

@@ -2,6 +2,8 @@
 layout: archive
 permalink: /
 title: ""
+image:
+	feature: banner_hearts.jpg
 ---
 
 <div class="wrap page-lead-content">
@@ -10,8 +12,13 @@ title: ""
 	No olihan se jo aikakin!</h2>
 </div>
 
+Matti Ojala ja Julia Gustafsson ovat aloittaneet häävalmistelunsa. Tervetuloa seuraamaan matkaamme alttarille!
+
 <div class="tiles">
 {% for post in site.posts %}
 	{% include post-grid.html %}
 {% endfor %}
 </div><!-- /.tiles -->
+
+
+<!-- https://mmistakes.github.io/skinny-bones-jekyll/ -->

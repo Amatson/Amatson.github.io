@@ -239,6 +239,7 @@
 }
 .page-lead-content {
 	padding: 1em;
+	text-align: center;
 	@include media($medium) {
 		padding: 2em;
 	}
