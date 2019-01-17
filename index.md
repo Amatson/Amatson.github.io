@@ -2,6 +2,8 @@
 layout: archive
 permalink: /
 title: ""
+image:
+	feature: banner_hearts.jpg
 ---
 
 <div class="wrap page-lead-content">
