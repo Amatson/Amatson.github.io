@@ -6,7 +6,7 @@ title: ""
 
 <style type="text/css">
 .bgimg {
-    background-image: url('{{ site.baseurl }}/images/heart_wood.jpg');
+    background-image: url('{{ site.baseurl }}/images/heart_wood2.jpg');
 }
 </style>
 
