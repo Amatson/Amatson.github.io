@@ -231,7 +231,7 @@
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	// text-align: center;
+	text-align: center;
 	color: $white;
 	@include media($large) {
 		background-size: cover;
@@ -239,7 +239,7 @@
 }
 .page-lead-content {
 	padding: 1em;
-	text-align: center;
+	// text-align: center;
 	@include media($medium) {
 		padding: 2em;
 	}
