@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /
-title: "JulMat menee naimisiin!"
+title: ""
 ---
 
 <div class="wrap page-lead-content">
