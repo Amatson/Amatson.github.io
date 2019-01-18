@@ -7,7 +7,7 @@ image:
   teaser: teaser_heart_candle.jpg
 ---
 
-# Rakas Julia.
+# Rakas Julia <3 
 
 Tämä sivusto on vuosipäivälahja meille molemmille. Se olkoon omalaatuinen osoitukseni tähän projektiin sitoutumisesta.
 <!--more-->
