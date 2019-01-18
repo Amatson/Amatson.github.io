@@ -22,7 +22,7 @@ gems:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-baseurl: julmat.fi/
+baseurl: 
 
 # Site owner
 owner:
