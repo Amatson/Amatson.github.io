@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Hyvää 11. vuosipäivää!"
-date: 2019-01-18
+date: 2019-02-22
 excerpt_separator: <!--more-->
 image:
   teaser: teaser_heart_candle.jpg
