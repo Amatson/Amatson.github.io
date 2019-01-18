@@ -1,13 +1,13 @@
 ---
 layout: article
 title: "Hyvää 11. vuosipäivää!"
-date: 2019-02-22
+date: 2019-01-18
 excerpt_separator: <!--more-->
 image:
   teaser: teaser_heart_candle.jpg
 ---
 
-# Rakas Julia <3 
+# Rakas Julia <3
 
 Tämä sivusto on vuosipäivälahja meille molemmille. Se olkoon omalaatuinen osoitukseni tähän projektiin sitoutumisesta.
 <!--more-->
