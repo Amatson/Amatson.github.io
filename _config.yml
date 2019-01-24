@@ -40,11 +40,11 @@ owner:
   disqus-shortname:
 
 
-picture:
-  path:
-  source: "/assets/images/_fullsize"
-  output: "generated"
-  suppress_warnings: false
+# picture:
+#   path:
+#   source: "/assets/images/_fullsize"
+#   output: "generated"
+#   suppress_warnings: false
 
 plugins:
   - jekyll-picture-tag
