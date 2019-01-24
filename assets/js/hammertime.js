@@ -27,7 +27,7 @@ $(document).ready(function() {
 
     caller.on('mouseenter', foo);
     caller.on('click', function(){
-        alert('clicked!');
+        alert('Click me out of way if you are using a phone.');
     });
 
 });
