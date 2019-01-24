@@ -45,6 +45,9 @@ picture:
   output: "generated"
   suppress_warnings: false
 
+plugins:
+  - jekyll-picture-tag
+
 include:
   - .htaccess
 exclude:
