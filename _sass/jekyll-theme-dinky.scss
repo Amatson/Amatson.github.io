@@ -1,0 +1,566 @@
+@import "rouge-github";
+
+/**/
+/* Color palettes
+
+Unexpected Color Combinations
+    --main-base:#6E3667;
+    --main-dark:#1A0315;
+    --main-spark:#88D317;
+    --main-light:#535353;
+
+Professional and Modern
+    --main-base:#1A2930;
+    --main-dark:#0A1612;
+    --main-spark:#F7CE3E;
+    --main-light:#C5C1C0;
+
+Neon Tones and Sharp Contrast
+    --main-base:#4717F6;
+    --main-dark:#0E0816;
+    --main-spark:#A239CA;
+    --main-light:#E7DFDD;
+
+Warm and bold
+    --main-base:#062F4F;
+    --main-dark:#000000;
+    --main-spark:#882601;
+    --main-light:#813772;
+
+Cool vs. warm
+    --main-base:#233237;
+    --main-dark:#18121E;
+    --main-spark:#984B43;
+    --main-light:#EAC67A;
+
+Default:
+$palette-background:#FBFAF7;
+$palette-text:#232323;
+$palette-text-hilight:#C30000;
+$palette-spark-background:#171717;
+$palette-spark-text:#FDFDFB;
+$palette-spark-hilight:#AF0011;
+$palette-spark-hilight-2:#C3001D;
+$palette-spark-hilight-text:#FDFDFB;
+
+Primary
+$palette-background:#181D35;
+$palette-text:#F4F4F4;
+$palette-text-hilight:#FF0000;
+$palette-spark-background:#A0A0A0;
+$palette-spark-text:#121628;
+$palette-spark-hilight:#870C0C; // red
+$palette-spark-hilight-2:#FF0000; // dark red
+$palette-spark-hilight-text:#F4F4F4;
+$palette-code:#FFFFFF;
+
+
+$palette-base:#1A2930;
+$palette-dark:#0A1612;
+$palette-light:#F7CE3E;
+$palette-spark:#C5C1C0;
+$palette-text:#FFFFFF;
+$palette-background:#000000;
+$palette-text-hilight:#F7CE3E;
+$palette-text-hilight2:#C5C1C0;
+$palette-spark:#C5C1C0;
+$palette-spark2:#1A2930;
+
+Blue Paletton
+http://paletton.com/#uid=14d0u0kllll00TuaGuKw0bW++2w
+#ECECEC // white
+#8277A9 // light
+#403075 // base
+#150841 // dark
+#03000E // black
+*/
+
+// /* Color variables */
+$palette-background:#150841;
+$palette-text:#ECECEC;
+$palette-text-hilight:#FF0000;
+$palette-spark-background:#8277A9;
+$palette-spark-text:#03000E;
+$palette-spark-hilight:#870C0C;
+$palette-spark-hilight-2:#FF0000;
+$palette-spark-hilight-text:#FFFFFF;
+$palette-code:#870C0C;
+
+
+/* MeyerWeb Reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+
+/* Base text styles */
+
+body {
+  padding:10px 50px 0 0;
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: $palette-text;
+	background-color: $palette-background;
+	margin: 0;
+	line-height: 1.8em;
+	-webkit-font-smoothing: antialiased;
+
+  width: 100%;
+  overflow-x:hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color:$palette-text;
+  margin:36px 0 10px;
+}
+
+p, ul, ol, table, dl {
+  margin:0 0 22px;
+}
+
+h1, h2, h3 {
+	font-family: Arvo, Monaco, serif;
+  line-height:1.3;
+	font-weight: normal;
+}
+
+h1,h2, h3 {
+	display: block;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 5px;
+}
+
+h1 {
+	font-size: 30px;
+  font-weight: bold;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+h4, h5, h6 {
+	font-family: Arvo, Monaco, serif;
+	font-weight: 700;
+}
+
+a {
+  color:$palette-text-hilight;
+  font-weight:200;
+  text-decoration:none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a small {
+	font-size: 12px;
+}
+
+em {
+	font-style: italic;
+}
+
+strong {
+  font-weight:700;
+}
+
+ul {
+  margin: 0;
+  list-style-position: inside;
+  list-style: disc;
+  padding-left: 25px;
+}
+
+ul.contact {
+  list-style-type: none;
+}
+
+li li {
+  list-style: circle;
+  padding: 0px
+}
+
+p.before-list {
+  margin:0;
+}
+
+ol {
+  list-style-position: inside;
+  list-style: decimal;
+  padding-left: 25px;
+}
+
+blockquote {
+  margin: 0;
+  padding: 0 0 0 20px;
+  font-style: italic;
+}
+
+dl, dt, dd, dl p {
+	font-color: $palette-text-hilight;
+}
+
+dl dt {
+  font-weight: bold;
+}
+
+dl dd {
+  padding-left: 20px;
+  font-style: italic;
+}
+
+dl p {
+  padding-left: 20px;
+  font-style: italic;
+}
+
+hr {
+  border:0;
+  background:$palette-text;
+  height:1px;
+  margin:0 0 24px;
+}
+
+.rainbow {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.tiny {
+  font-size: 10px
+}
+
+.post-meta {
+  font-size: 70%;
+}
+.post-link {
+  margin:0;
+  padding:0;
+}
+
+.fa {
+  // background: $palette-text;
+
+}
+
+/* Images */
+
+img {
+  position: relative;
+  margin: 0 auto;
+  max-width: 650px;
+  padding: 5px;
+  margin: 10px 0 32px 0;
+  border: 1px solid #ccc;
+}
+
+p img {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+  text-align: center;
+  border: none;
+}
+
+/* Code blocks */
+
+code, pre {
+	font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  color:$palette-code;
+  font-size:14px;
+}
+
+pre {
+	padding: 4px 12px;
+  background: $palette-spark-background;
+  border-radius:4px;
+  border:1px solid #D7D8C8;
+  overflow: auto;
+  overflow-y: hidden;
+	margin-bottom: 32px;
+}
+
+
+/* Tables */
+
+table {
+  width:100%;
+}
+
+table {
+  border: 1px solid #ccc;
+  margin-bottom: 32px;
+  text-align: left;
+ }
+
+th {
+  font-family: 'Arvo', Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+  padding: 10px;
+  background: $palette-background;
+  color: $palette-text-hilight;
+ }
+
+td {
+  padding: 10px;
+	background: $palette-background;
+ }
+
+
+/* Wrapper */
+.wrapper {
+  width:960px;
+  position: relative;
+}
+
+
+/* Header */
+
+header {
+	background-color: $palette-spark-background;
+	color: $palette-spark-text;
+  width:170px;
+  float:left;
+  // position:fixed;
+	border: 1px solid #000;
+	-webkit-border-top-right-radius: 4px;
+	-webkit-border-bottom-right-radius: 4px;
+	-moz-border-radius-topright: 4px;
+	-moz-border-radius-bottomright: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	padding: 34px 25px 72px 50px;
+	margin: 30px 25px 0 0;
+	-webkit-font-smoothing: antialiased;
+}
+
+p.header {
+	font-size: 16px;
+}
+
+h1.header {
+	font-family: Arvo, sans-serif;
+	font-size: 30px;
+	font-weight: 300;
+	line-height: 1.3em;
+	border-bottom: none;
+	margin-top: 0;
+}
+
+a.header, a.name, header li a{
+	color: $palette-spark-hilight-text;
+}
+
+h1.header a {
+  color: $palette-background;
+}
+
+a.header {
+	text-decoration: underline;
+}
+
+a.name {
+	white-space: nowrap;
+}
+
+header ul {
+  list-style:none;
+  padding:0;
+}
+
+header li {
+	list-style-type: none;
+  width:132px;
+  height:15px;
+	margin-bottom: 12px;
+	line-height: 1em;
+	padding: 6px 6px 6px 7px;
+
+	background: $palette-spark-hilight;
+	// background: -moz-linear-gradient(top, #AF0011 0%, #820011 100%);
+  // background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
+  // background: -webkit-linear-gradient(top, #AF0011 0%,#820011 100%);
+  // background: -o-linear-gradient(top, #AF0011 0%,#820011 100%);
+  // background: -ms-linear-gradient(top, #AF0011 0%,#820011 100%);
+  // background: linear-gradient(top, #AF0011 0%,#820011 100%);
+
+	border-radius:4px;
+  border:1px ;
+  // solid #0D0D0D;
+
+	-webkit-box-shadow: inset 0px 1px 1px 0 ;
+  // rgba(233,2,38, 1);
+	box-shadow: inset 0px 1px 1px 0 ;
+  // rgba(233,2,38, 1);
+
+}
+
+header li:hover {
+	background: $palette-spark-hilight-2;
+	// background: -moz-linear-gradient(top, #C3001D 0%, #950119 100%);
+  // background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
+  // background: -webkit-linear-gradient(top, #C3001D 0%,#950119 100%);
+  // background: -o-linear-gradient(top, #C3001D 0%,#950119 100%);
+  // background: -ms-linear-gradient(top, #C3001D 0%,#950119 100%);
+  // background: linear-gradient(top, #C3001D 0%,#950119 100%);
+}
+
+a.buttons {
+  display:inline-block;
+  -webkit-font-smoothing: antialiased;
+	font-weight: normal;
+	text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
+	padding: 1px 2px 2px 22px;
+  width:100%;
+  height:100%;
+}
+
+a.github {
+	background: url(../images/octocat-small.png) no-repeat 1px;
+}
+
+a.buttons:hover {
+	// color: $palette-spark-hilight;
+	text-decoration: none;
+}
+
+
+/* Section - for main page content */
+
+section {
+  width:650px;
+  float:right;
+  padding-bottom:50px;
+  min-height: 650px;
+}
+
+
+/* Footer */
+
+footer {
+  width:170px;
+  float:left;
+  // position:fixed;
+  bottom:10px;
+	padding-left: 50px;
+}
+
+
+@media print, screen and (max-width: 960px) {
+
+  div.wrapper {
+    width:auto;
+    margin:0;
+  }
+
+  header, section, footer {
+    float:none;
+    position:static;
+    width:auto;
+  }
+
+	footer {
+		border-top: 1px solid #ccc;
+		margin:0 84px 0 50px;
+		padding:0;
+	}
+
+  header {
+    padding-right:320px;
+  }
+
+  section {
+    padding:20px 84px 20px 50px;
+    margin:0 0 20px;
+    min-height: 0;
+  }
+
+  header a small {
+    display:inline;
+  }
+
+  header ul {
+    position:absolute;
+    right:130px;
+    top:84px;
+  }
+}
+
+@media print, screen and (max-width: 720px) {
+  body {
+    word-wrap:break-word;
+  }
+
+  header {
+    padding:10px 20px 0;
+		margin-right: 0;
+  }
+
+	section {
+    padding:10px 0 10px 20px;
+    margin:0 0 30px;
+  }
+
+	footer {
+		margin: 0 0 0 30px;
+	}
+
+  header ul, header p.view {
+    position:static;
+  }
+}
+
+
+/* TODO: set links to bold when using smaller screensize. */
+
+@media print, screen and (max-width: 480px) {
+
+  header ul li.download {
+    display:none;
+  }
+
+	footer {
+		margin: 0 0 0 20px;
+	}
+
+	footer a{
+		display:block;
+	}
+
+}
+
+@media print {
+  body {
+    padding:0.4in;
+    font-size:12pt;
+    color:#444;
+  }
+}

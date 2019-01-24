@@ -1,0 +1,52 @@
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="{{ site.url }}">
+          {{ site.title }}
+        </a>
+      </h1>
+      <p class="lead">{{ site.description }}</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <div>
+        <div><a class="sidebar-nav-item{% if page.url == "/" %} active{% endif %}" href="{{ site.url }}">
+        {% if site.fawesome != null %}
+          <i class="fa {{ site.fawesome }}  fa-fw" aria-hidden="true"></i>
+        {% endif %}
+        Home</a></div>
+
+      {% comment %}
+        The code below dynamically generates a sidebar nav of pages with
+        `layout: page` in the front-matter. See readme for usage.
+      {% endcomment %}
+
+
+      {% assign pages_list = site.pages %}
+      {% for node in pages_list %}
+        {% if node.title != null %}
+
+          {% if node.layout == "page" %}
+            <div><a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/{{ node.url  | remove_first: '/' }}">
+              {% if node.fawesome != null %}
+                <i class="fa {{ node.fawesome }} fa-fw" aria-hidden="true"></i>
+              {% endif %}
+              {{ node.title }}</a></div>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+      </div>
+
+      <hr>
+      <small class="sidebar-nav-item">Hosted on <a href="https://pages.github.com">GitHub Pages</a></small>
+      <small class="sidebar-nav-item">Using modified <a href="https://karloespiritu.com/blackdoc/">BlackDoc theme</a></small>
+      <small class="sidebar-nav-item">mixed with <a href="http://mmistakes.github.io/skinny-bones-jekyll/" rel="nofollow">Skinny Bones</a></small>
+      <small class="sidebar-nav-item">Spiced with <a href="http://fontawesome.io/">Font Awesome</a></small>
+      <!-- <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a> -->
+      <small class="sidebar-nav-item">Currently v{{ site.version }}</small>
+
+    </nav>
+    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+  </div>
+</div>

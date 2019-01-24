@@ -1,20 +1,24 @@
 # Site wide configuration
 
-title: "JulMat2020"
-description: "JulMat menee naimisiin! #olijoaikakin"
-logo: logo.jpg # 120x120 px default image used for Twitter summary card
-teaser: teaser.jpg # 400x250 px default teaser image used in image archive grid
+title: "Matti Ojala"
+description: If you're here to find out who is Matti Ojala, you came to the right place! Find out more about my background, career and hobbies in electronics, microcontrollers, automation, softwares and web. Enjoy!
+logo: logo.jpg # TODO! 120x120 px default image used for Twitter summary card
+# teaser: teaser_home.jpg # TODO! 400x250 px default teaser image used in image archive grid
 locale: fi
 url:
+baseurl:
 feed:
   path: atom.xml
+fawesome: fa-home
+version: 2.1.0
+image: teaser_home.jpg
 
 # Jekyll configuration
 
 sass:
   sass_dir: _sass
   style: compressed
-permalink: /:categories/:title/
+# permalink: /:categories/:title/
 kramdown:
   toc_levels: 1..2
 highlighter: rouge
@@ -22,7 +26,6 @@ gems:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-baseurl: 
 
 # Site owner
 owner:
@@ -36,6 +39,11 @@ owner:
   avatar: bio-photo.jpg # 160x160 px image for author byline
   disqus-shortname:
 
+
+picture:
+  source: "/assets/images/_fullsize"
+  output: "generated"
+  suppress_warnings: false
 
 include:
   - .htaccess

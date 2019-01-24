@@ -1,0 +1,40 @@
+---
+layout: page
+title: Projects
+fawesome: fa-cogs
+image: teaser_electronics.jpg
+---
+
+
+
+<!-- <div class="content"> -->
+<h1>Projects I did, things I learned</h1>
+<p>
+  Here are some of my projects I have made and also things I learned that might be useful to write down.
+  <br>
+</p>
+
+<ul class="post-list">
+  {% for post in site.posts %}
+    <li>
+      <h2>
+        <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      </h2>
+      {{ post.excerpt }}
+
+    </li>
+  {% endfor %}
+</ul>
+
+{% comment %}
+<!-- <div class="tiles">
+{% for post in site.posts %}
+	{% include post-grid.html %}
+{% endfor %}
+</div>-->
+{% endcomment %}
+
+<h4>More content coming soon!</h4>
+
+<!-- </div> -->
