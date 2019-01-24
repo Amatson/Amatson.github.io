@@ -41,6 +41,7 @@ owner:
 
 
 picture:
+  path:
   source: "/assets/images/_fullsize"
   output: "generated"
   suppress_warnings: false
