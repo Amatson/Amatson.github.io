@@ -26,8 +26,8 @@ function foo()
 $(document).ready(function() {
 
     caller.on('mouseenter', foo);
-    caller.on('click', function(){
-        alert('Click me out of way if you are using a phone.');
-    });
+    // caller.on('click', function(){
+    //     alert('Click me out of way if you are using a phone.');
+    // });
 
 });
