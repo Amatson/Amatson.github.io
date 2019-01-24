@@ -37,19 +37,23 @@
 
   </head>
 
-  <body id="js-body">
+  <body id="js-body" class="move-area">
     {% include browser-upgrade.html %}
-    <!-- {% include header.html %} -->
+    {% comment %}<!-- {% include header.html %} --> {% endcomment %}
     {% include navigation-sliding.html %}
     {% include sidebar.html %}
+
 
 <!-- id="page-wrapper" -->
     <div  class="content container">
       {{ content }}
     </div>
 
+    {% include googlyeyes.html %}
+
     <script src="{{ site.baseurl }}/assets/js/vendor/jquery-1.9.1.min.js"></script>
     <script src="{{ site.baseurl }}/assets/js/main.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/hammertime.js"></script>
 
   </body>
 
