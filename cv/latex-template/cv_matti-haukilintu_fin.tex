@@ -1,0 +1,202 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.1 (8/1/17)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[letterpaper]{twentysecondcv}
+\usepackage{fontawesome} % a4paper for A4
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+\profilepic{../../assets/images/profile_bw.jpg} % Profile picture
+
+\cvname{Matti Haukilintu} % Your name
+\cvjobtitle{Sovellusasiantuntija} % Job title/career
+
+\cvdate{28.4.1990} % Date of birth
+\cvaddress{Jyväskylä, Suomi Finland} % Short address/location, use \newline if more than 1 line is required
+\cvnumberphone{+358 504961581} % Phone number
+\cvsite{http://matson.haukilintu.fi} % Personal website
+\cvgit{https://github.com/Amatson} % Git page
+\cvmail{matti@haukilintu.fi} % Email address
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	 ABOUT ME
+%----------------------------------------------------------------------------------------
+
+\aboutme{
+Matti on aktiivinen ja uudesta kiinnostuva sovelluskehittäjä,
+jolla on laaja-alainen kokemus IT-alalta.
+} % To have no About Me section, just remove all the text and leave \aboutme{}
+
+%----------------------------------------------------------------------------------------
+%	 SKILLS
+%----------------------------------------------------------------------------------------
+
+% Skill bar section, each skill must have a value between 0 an 6 (float)
+\skills{{Python/5},{C++/4},{C/3},{C\#/4},{Java/4.7},{SQL/5.9},{Web-teknologiat/5.2}}
+
+%------------------------------------------------
+
+% Skill text section, each skill must have a value between 0 an 6
+\skillstext{{Sosiaalinen/6},{Tiimityö/6},{Sopeutuva/5},{Huumori/6},{Luovuus/5}}
+
+%----------------------------------------------------------------------------------------
+
+\quoteblock{Thrust the process!}
+
+%----------------------------------------------------------------------------------------
+
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{2019-}{Software expert}{Samlink Oy}
+    {Software development projects in banking industry,\\
+    as well as DNA Entertainment platform and Web UI development.\\
+    \faIcon{carrot} \texttt{Java}, \texttt{Android}, \texttt{Node.js}, \texttt{Angular}, \texttt{Typescript} \\
+  Also legacy service maintenance related to power grid failure messaging and Chamber of Commerce document handling.\\
+    \faIcon{carrot} \texttt{Bash}, \texttt{Apache}, \texttt{ANT}, \texttt{PSQL}, \texttt{Glassfish}, \texttt{Wildfly}, \texttt{Liferay}, \texttt{Alfresco}}
+  \twentyitem{2017-2018}{Junior Developer}{Innotect Oy}
+    {Microsoft Azure based software development and electronic device designing/programming.\\
+    \faIcon{carrot} \texttt{Azure Function Apps (C\#)}, \texttt{BlinkStick (Python, C\#)}, \texttt{Legato (C)}, \texttt{IoT}}
+  \twentyitem{2015-2016}{Trainee}{ABB Oy}
+    {Low Power AC frequency converter product management team.\\
+    Competitor comparison and analysis, database management, etc.}
+  \twentyitem{2014}{Trainee}{ABB Oy}
+    {Frequency converter ACS800 assembling.}
+  \twentyitem{2013}{HMI Designer}{Elmont Oy}
+    {Interface and UI designing of an order management software for factory production line. \\
+    \faIcon{carrot} \texttt{C\#}, \texttt{SQL}
+    }
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{twenty} % Environment for a list with descriptions
+  \twentyitem{2015-2022}{M.Sc. Automation and Control Engineering}{Aalto University}
+  {Major: Control, robotics and autonomous systems \\
+  spiced with Computer, Communication and Information Science \\
+  Minor: Software engineering \\
+  Thesis: \emph{Machine learning approach to support ticket forecasting from software logs}}
+  \twentyitem{2011-2015}{B.Sc. Automation and Systems Technology}{Aalto University}
+  {Minor: Software engineering.
+  \\Thesis: \emph{Offline-programming of industrial robots}}
+  \twentyitem{2009}{Highs school}{Lahden Yhteiskoulu}{Matriculation examination}
+  %\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 OTHER INFORMATION
+%----------------------------------------------------------------------------------------
+
+
+
+\begin{minipage}[t]{0.5\textwidth}
+  \vspace{-\baselineskip} % Required for vertically aligning minipages
+
+  \section{OS}
+
+  \textbf{Windows} - native \\
+  \textbf{Ubuntu} - excellent \\
+  \textbf{Ubuntu CLI} - professional
+
+
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.5\textwidth}
+  \vspace{-\baselineskip} % Required for vertically aligning minipages
+
+  \section{Languages}
+
+  \textbf{Finnish} - native \\
+  \textbf{English} - excellent \\
+  \textbf{Swedish} - intermediate \\
+
+\end{minipage}
+
+
+%----------------------------------------------------------------------------------------
+%	 MISC
+%----------------------------------------------------------------------------------------
+
+\section{Other information}
+
+
+\subsection{Professionally speaking}
+
+I'm interested in full-stack development, cloud technologies, machine learning and customer sales representing.
+I've always loved working with people and solving real problems with the knowledge I have.
+Be it with the team on projects, with colleagues on internal processes, or with customer on their needs,
+I thrive in situations where the first step is to understand the actual issue and solve it with the best possible way.
+
+\subsection{Hobbies and such}
+
+  I like challenging myself with different sports.
+  Most regularly I practice parkour and gymnastics,
+  but I also love snowboarding and water sports.
+  Besides sports, I like to play computer and console games,
+  tinker with electronics and micro\-controllers,
+  and build useful gadgets and ornaments from scrap parts.
+
+
+
+%----------------------------------------------------------------------------------------
+%	 SECOND PAGE EXAMPLE
+%----------------------------------------------------------------------------------------
+
+%\newpage % Start a new page
+
+%\makeprofile % Print the sidebar
+
+%\section{Other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%\section{Other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
