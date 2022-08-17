@@ -9,6 +9,8 @@ permalink: genesis
 What is this, I don't even... \\
 I am now writing my first "document post" to my own websites! So... um.. Hello world!
 
+<!--more-->
+
 ### How it all started...
 Two weeks ago I started my personal website project to get a suitable online database to my project documentaries and a portfolio/CV/show-off web page. The idea started from Web Software Development course and Django seemed a fun way to create personal web pages.
 

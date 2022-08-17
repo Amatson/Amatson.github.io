@@ -12,6 +12,7 @@ feed:
 fawesome: fa-home
 version: 2.1.0
 image: teaser_home.jpg
+address-city: Jyväskylä
 
 # Jekyll configuration
 

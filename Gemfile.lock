@@ -277,6 +277,7 @@ DEPENDENCIES
   jekyll-feed
   jekyll-gist
   jekyll-sitemap
+  jekyll-watch
 
 BUNDLED WITH
-   1.17.2
+   2.3.20
