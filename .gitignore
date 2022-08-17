@@ -4,3 +4,13 @@ _site
 Gemfile.lock
 *.gem
 trash
+/.idea/*
+
+/cv/out/cv_matti-haukilintu.aux
+/cv/out/cv_matti-haukilintu.log
+/cv/out/cv_matti-haukilintu.out
+/cv/out/cv_matti-haukilintu.synctex.gz
+/cv/out/cv_matti-haukilintu_fin.aux
+/cv/out/cv_matti-haukilintu_fin.log
+/cv/out/cv_matti-haukilintu_fin.out
+/cv/out/cv_matti-haukilintu_fin.synctex.gz

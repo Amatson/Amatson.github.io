@@ -1,7 +1,7 @@
 # Site wide configuration
 
-title: "Matti Ojala"
-description: If you're here to find out who is Matti Ojala, you came to the right place! Find out more about my background, career and hobbies in electronics, microcontrollers, automation, softwares and web. Enjoy!
+title: "Matti Haukilintu"
+description: If you're here to find out who is Matti Haukilintu, you came to the right place! Find out more about my background, career and hobbies in electronics, microcontrollers, automation, software and web. Enjoy!
 logo: logo.jpg # TODO! 120x120 px default image used for Twitter summary card
 # teaser: teaser_home.jpg # TODO! 400x250 px default teaser image used in image archive grid
 locale: fi
