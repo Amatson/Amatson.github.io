@@ -24,6 +24,8 @@
 
 \usetikzlibrary{backgrounds}
 
+\RequirePackage{boolexpr}
+
 %----------------------------------------------------------------------------------------
 %	 COLOURS
 %----------------------------------------------------------------------------------------
@@ -45,6 +47,45 @@
 \pagestyle{empty} % Disable headers and footers
 
 \setlength{\parindent}{0pt} % Disable paragraph indentation
+
+%----------------------------------------------------------------------------------------
+%	 If/boolean/etc. configs
+%----------------------------------------------------------------------------------------
+
+%%Check if optional is loaded. Otherwise, you don't
+%%want to define these commands.
+%\@ifpackageloaded{optional}{%
+%%%Don't do anything here because you've got it covered.
+%}{%
+%%%%What are the defaults if no optional class was loaded?
+%  \usepackage[opta]{optional}
+%}
+%%%%Let's make an ifthenelse version of the \opt command that's
+%%%%provided by the optional package
+%\newcommand\ifopt[3]{%
+%  \ifboolexpr{%
+%    0 = \pdfstrcmp{true}{%
+%      \opt{#1}{true}%
+%    }%
+%  }{#2}{#3}%
+%}%
+%%%%This command is a wrapper around the \switch command that's
+%%%%provided by boolexpr. It lets you quickly create a switch
+%%%%that checks if an option is set.
+%\newcommand*\switchopt[1]{%
+%  \switch[\pdfstrcmp{\opt{#1}{#1}}]%
+%}
+%%%%I'm sure there is a way to embed the \switch
+%%%%command in here, but I'm not that smart. Is
+%%%%there some application of \noexpand?
+%%%%
+%%%%Anyway, this is more common to use than \switchopt
+%%%%You'll use \switch (with no optional argument)
+%%%%and \case[\caseopt{myoption}] Do stuff...
+%%%%
+%\newcommand*\caseopt[1]{%
+%  \pdfstrcmp{#1}{\opt{#1}{#1}}% = 0%
+%}
 
 %----------------------------------------------------------------------------------------
 %	 SIDEBAR DEFINITIONS
@@ -80,6 +121,7 @@
 \newcommand{\profilepic}[1]{\renewcommand{\profilepic}{#1}}
 \newcommand{\cvname}[1]{\renewcommand{\cvname}{#1}}
 \newcommand{\cvjobtitle}[1]{\renewcommand{\cvjobtitle}{#1}}
+\newcommand{\finnish}[1]{\renewcommand{\finnish}{#1}}
 
 % Command for printing the contact information icons
 %\newcommand*\icon[1]{\tikz[baseline=(char.base)]{\node[shape=circle,draw,inner sep=1pt, fill=maincolor,maincolor,text=white] (char) {#1};}}
@@ -88,6 +130,7 @@
 
 
 \usepackage{fontawesome5} % Required for FontAwesome icons
+\usepackage{fontawesome} % a4paper for A4
 
 % Command to output an icon in a black square box with text to the right
 %\newcommand*{\icon}[2]{% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
@@ -191,20 +234,26 @@
 		%------------------------------------------------
 
 		\ifthenelse{\equal{\aboutme}{}}{}{
-			\profilesection{About me}
+      \opt{finnish}{\profilesection{Lyhyesti}}
+      \opt{english}{\profilesection{About me}}
 			\begin{flushleft}
 				\aboutme
 			\end{flushleft}
 		}
+    %%\ifthenelse{\equal{\finnish}{}}{\profilesection{Lyhyesti}}{\profilesection{About me}}
 
 		%------------------------------------------------
 
-		\profilesection{Skills}
+		\opt{english}{\profilesection{Skills}}
+    \opt{finnish}{\profilesection{IT-taidot}}
+
 
 		\skills
 		\skillstext
 		\scriptsize
-		(*)[The skill scale is from 0 (Fundamental Awareness) to 6 (Expert).]
+    \opt{english}{(*)[The skill scale is from 0 (Fundamental Awareness) to 6 (Expert).]}
+    \opt{finnish}{(*)[Asteikon skaala on välillä 0 (Perustason ymmärrys) - 6 (Asiantuntija).]}
+
 
 		%------------------------------------------------
 

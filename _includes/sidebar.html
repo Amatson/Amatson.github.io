@@ -2,7 +2,7 @@
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
       <h1>
-        <a href="{{ site.url }}">
+        <a href="{{ site.baseurl }}">
           {{ site.title }}
         </a>
       </h1>
@@ -11,7 +11,7 @@
 
     <nav class="sidebar-nav">
       <div>
-        <div><a class="sidebar-nav-item{% if page.url == "/" %} active{% endif %}" href="{{ site.url }}">
+        <div><a class="sidebar-nav-item{% if page.url == '/' %} active{% endif %}" href="{{ site.baseurl }}">
         {% if site.fawesome != null %}
           <i class="fa {{ site.fawesome }}  fa-fw" aria-hidden="true"></i>
         {% endif %}
